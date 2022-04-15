@@ -1,0 +1,19 @@
+* {
+  font-family: 'Calibri';
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+th {
+  background-color: lightgray;
+  width: 50px;
+  text-align: center;
+}
+div{
+  padding-left: 5px;
+  padding-right: 5px;
+}

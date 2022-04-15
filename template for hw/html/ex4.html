@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="POST">
+      <h2>Sample Form</h2>
+      <div>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="name@domain" />
+      </div>
+      <div>
+        <p>Payment Type:</p>
+        <div>
+          <input type="radio" name="payment" value="cash" />
+          <label for="cash">Cash</label>
+        </div>
+        <div>
+          <input type="radio" name="payment" value="credit" />
+          <label for="credit">Credit Card</label>
+        </div>
+        <div>
+          <input type="radio" name="payment" value="gpay" />
+          <label for="gpay">Google Pay</label>
+        </div>
+        <div>
+          <input type="radio" name="payment" value="apay" />
+          <label for="apay">Apple Pay</label>
+        </div>
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" name="promo" id="promo" />
+        <label for="promo">Sign me up for special promotions</label>
+      </div>
+      <br />
+      <div>
+        <label for="loc">Preferred Location</label>
+        <select name="loc" id="loc">
+          <option value="los">Los Angeles</option>
+          <option value="oc">Orange County</option>
+          <option value="riverside">Riverside</option>
+          <option value="sandiego">San Diego</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Submit" id="submit"/>
+        <input type="reset" value="Cancel" />
+      </div>
+    </form>
+
+    <br />
+    <div id="table_cont"></div>
+    <script src="../js/ex4.js"> </script>
+  </body>
+</html>
